@@ -1,0 +1,10 @@
+pytest
+black
+mypy
+pylsp-mypy
+python-lsp-server
+python-lsp-black
+flake8
+flake8-pyproject
+# requests
+# types-requests

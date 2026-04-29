@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+venv/
+ENV/
+.direnv
+.coverage
+coverage/
+htmlcov
+
+# Node/NPM
+node_modules/
+.npm/
+.npm-cache/
+.vitest/
+
+# IDEs and generative code tools
+.idea/
+.vscode/
+*.swp
+*.swo
+.aider.model.settings.yml
+.aider*history*
+.aider*cache*
+.claude/*
+.crush/
+crush-panic*
+*.ipynb_checkpoints/
+.langchain-cache.db
+
+# Misc
+*~
+credentials.json
+.cache
+playwright-*-chrome

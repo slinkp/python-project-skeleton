@@ -2,7 +2,8 @@
 line-length = 90
 
 [tool.flake8]
-extend-ignore = ["E501", "E203", "E701"]
+# extend-ignore = ["E501", "E203", "E701"]
+extend-ignore = ["E203", "E701"]
 exclude = [".direnv", ".git", "__pycache__","htmlcov", "data"]
 max-line-length = 90
 extend-select = ["B950"]
@@ -11,3 +12,8 @@ extend-select = ["B950"]
 check_untyped_defs = false
 disable_error_code = "annotation-unchecked"
 exclude = [".direnv", ".git", "__pycache__","htmlcov", "data"]
+
+[tool.pylsp-mypy]
+enabled = true
+live_mode = true
+lsp_pylsp_plugins_flake8_max_line_length = 90
